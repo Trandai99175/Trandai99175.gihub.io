@@ -1,0 +1,26 @@
+body {font-family: 'Roboto', sans-serif;}
+h3 {
+    color: rgb(0, 255, 85);
+}
+
+#heading {
+    color: red;
+
+}
+
+.title {
+    color: rgb(55, 0, 255);
+}
+h3#heading{
+    color: rgb(226, 43, 186);
+}
+h3#heading.title{
+    color: #d80a1bf6;
+}
+body h3#heading.title{
+    color: rgb(255, 0, 119);
+}
+.icon{ 
+    color: red; font-size: 7
+    0;
+}

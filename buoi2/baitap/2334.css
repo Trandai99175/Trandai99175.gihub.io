@@ -1,0 +1,13 @@
+body {font-family: 'Roboto', sans-serif;}
+.part2{
+    font-size:50px;
+    color:red;
+    font-weight:bold;
+}
+#part1{
+    font-size:30px;
+    color:green;
+}
+div{
+    color:blue;
+}

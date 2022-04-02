@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- tiêu đề -->
+        <thead>
+            <!-- tiêu đề trong hàng -->
+            <tr>
+                <th>No</th>
+                <th>fullname</th>
+                <th>Posotion</th>
+                <th>salayri</th>
+            </tr>
+
+        </thead>
+        <!-- nội dung bảng -->
+        <tbody>
+            <!-- nội dung hàng  -->
+            <tr>
+                <!-- giá trị,giữ liệu hàng số -->
+                <td>1</td>
+                <td>Nguyễn văn A</td>
+                <td>Nhân viên</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn văn b</td>
+                <td>giám đốc</td>
+                <td>5000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nguyễn văn c</td>
+                <td>Kinh doanh</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Nguyễn văn d</td>
+                <td>Kinh doanh2</td>
+                <td>3000$</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <!-- tiêu đề -->
+        <thead>
+            <!-- tiêu đề trong hàng -->
+            <tr>
+                <th>No</th>
+                <th>fullname</th>
+                <th>Posotion</th>
+                <th>salayri</th>
+            </tr>
+
+        </thead>
+        <!-- nội dung bảng -->
+        <tbody>
+            <!-- nội dung hàng  -->
+            <tr>
+                <!-- giá trị,giữ liệu hàng số -->
+                <td>1</td>
+                <td>Nguyễn văn A</td>
+                <td>Nhân viên</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Nguyễn văn b</td>
+                <td>giám đốc</td>
+                <td>5000$</td>
+            </tr>
+            <tr>
+                
+                
+                <td>Quản lý nhân sự</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nguyễn văn c</td>
+                <td>Kinh doanh</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Nguyễn văn d</td>
+                <td>Kinh doanh2</td>
+                <td>3000$</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">no</th>
+                <th rowspan="2">name</th>
+                <th colspan="2">ad</th>
+               
+            </tr>
+            <tr>
+               
+                <th>city</th>
+                <th>contry</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Hung</td>
+                <td>hà nội</td>
+                <td>việt nam</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">danh sách ca sĩ</th>
+               
+            </tr>
+            <tr> 
+                <th>Stt</th>
+                <th>Tên</th>
+                <th>Mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">quang thọ</td>
+                <td>Ace mail</td>
+              
+            </tr>
+            <tr>
+                <td>Bde mail</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
